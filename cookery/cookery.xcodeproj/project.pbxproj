@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7368E0B81C56F9B2008D8109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0B71C56F9B2008D8109 /* main.m */; };
+		7368E0BB1C56F9B2008D8109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0BA1C56F9B2008D8109 /* AppDelegate.m */; };
+		7368E0BE1C56F9B2008D8109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0BD1C56F9B2008D8109 /* ViewController.m */; };
+		7368E0C11C56F9B2008D8109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7368E0BF1C56F9B2008D8109 /* Main.storyboard */; };
+		7368E0C31C56F9B2008D8109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7368E0C21C56F9B2008D8109 /* Assets.xcassets */; };
+		7368E0C61C56F9B2008D8109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7368E0C41C56F9B2008D8109 /* LaunchScreen.storyboard */; };
+		7368E0D11C56F9B2008D8109 /* cookeryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0D01C56F9B2008D8109 /* cookeryTests.m */; };
+		7368E0DC1C56F9B2008D8109 /* cookeryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0DB1C56F9B2008D8109 /* cookeryUITests.m */; };
+		7368E1141C56F9D8008D8109 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0EC1C56F9D8008D8109 /* AFHTTPSessionManager.m */; };
+		7368E1151C56F9D8008D8109 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0EF1C56F9D8008D8109 /* AFNetworkReachabilityManager.m */; };
+		7368E1161C56F9D8008D8109 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0F11C56F9D8008D8109 /* AFSecurityPolicy.m */; };
+		7368E1171C56F9D8008D8109 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0F31C56F9D8008D8109 /* AFURLRequestSerialization.m */; };
+		7368E1181C56F9D8008D8109 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0F51C56F9D8008D8109 /* AFURLResponseSerialization.m */; };
+		7368E1191C56F9D8008D8109 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368E0F71C56F9D8008D8109 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7368E0CD1C56F9B2008D8109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7368E0AB1C56F9B2008D8109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7368E0B21C56F9B2008D8109;
+			remoteInfo = cookery;
+		};
+		7368E0D81C56F9B2008D8109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7368E0AB1C56F9B2008D8109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7368E0B21C56F9B2008D8109;
+			remoteInfo = cookery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7368E0B31C56F9B2008D8109 /* cookery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368E0B71C56F9B2008D8109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7368E0B91C56F9B2008D8109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		7368E0BA1C56F9B2008D8109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		7368E0BC1C56F9B2008D8109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		7368E0BD1C56F9B2008D8109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		7368E0C01C56F9B2008D8109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7368E0C21C56F9B2008D8109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		7368E0C51C56F9B2008D8109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7368E0C71C56F9B2008D8109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		7368E0CC1C56F9B2008D8109 /* cookeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cookeryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368E0D01C56F9B2008D8109 /* cookeryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cookeryTests.m; sourceTree = "<group>"; };
+		7368E0D21C56F9B2008D8109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7368E0D71C56F9B2008D8109 /* cookeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cookeryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7368E0DB1C56F9B2008D8109 /* cookeryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cookeryUITests.m; sourceTree = "<group>"; };
+		7368E0DD1C56F9B2008D8109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7368E0EB1C56F9D8008D8109 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7368E0EC1C56F9D8008D8109 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7368E0ED1C56F9D8008D8109 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7368E0EE1C56F9D8008D8109 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7368E0EF1C56F9D8008D8109 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7368E0F01C56F9D8008D8109 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7368E0F11C56F9D8008D8109 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7368E0F21C56F9D8008D8109 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7368E0F31C56F9D8008D8109 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7368E0F41C56F9D8008D8109 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7368E0F51C56F9D8008D8109 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7368E0F61C56F9D8008D8109 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7368E0F71C56F9D8008D8109 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7368E0B01C56F9B2008D8109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0C91C56F9B2008D8109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0D41C56F9B2008D8109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7368E0AA1C56F9B2008D8109 = {
+			isa = PBXGroup;
+			children = (
+				7368E0B51C56F9B2008D8109 /* cookery */,
+				7368E0CF1C56F9B2008D8109 /* cookeryTests */,
+				7368E0DA1C56F9B2008D8109 /* cookeryUITests */,
+				7368E0B41C56F9B2008D8109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7368E0B41C56F9B2008D8109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0B31C56F9B2008D8109 /* cookery.app */,
+				7368E0CC1C56F9B2008D8109 /* cookeryTests.xctest */,
+				7368E0D71C56F9B2008D8109 /* cookeryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7368E0B51C56F9B2008D8109 /* cookery */ = {
+			isa = PBXGroup;
+			children = (
+				7368E1121C56F9D8008D8109 /* Source */,
+				7368E1111C56F9D8008D8109 /* Models */,
+				7368E1131C56F9D8008D8109 /* Views */,
+				7368E10F1C56F9D8008D8109 /* Controllers */,
+				7368E1101C56F9D8008D8109 /* misc */,
+				7368E0B61C56F9B2008D8109 /* Supporting Files */,
+			);
+			path = cookery;
+			sourceTree = "<group>";
+		};
+		7368E0B61C56F9B2008D8109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0B71C56F9B2008D8109 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7368E0CF1C56F9B2008D8109 /* cookeryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0D01C56F9B2008D8109 /* cookeryTests.m */,
+				7368E0D21C56F9B2008D8109 /* Info.plist */,
+			);
+			path = cookeryTests;
+			sourceTree = "<group>";
+		};
+		7368E0DA1C56F9B2008D8109 /* cookeryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0DB1C56F9B2008D8109 /* cookeryUITests.m */,
+				7368E0DD1C56F9B2008D8109 /* Info.plist */,
+			);
+			path = cookeryUITests;
+			sourceTree = "<group>";
+		};
+		7368E0E91C56F9D8008D8109 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0EA1C56F9D8008D8109 /* AFNetworking */,
+			);
+			name = AFNetworking;
+			path = ../AFNetworking;
+			sourceTree = "<group>";
+		};
+		7368E0EA1C56F9D8008D8109 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0EB1C56F9D8008D8109 /* AFHTTPSessionManager.h */,
+				7368E0EC1C56F9D8008D8109 /* AFHTTPSessionManager.m */,
+				7368E0ED1C56F9D8008D8109 /* AFNetworking.h */,
+				7368E0EE1C56F9D8008D8109 /* AFNetworkReachabilityManager.h */,
+				7368E0EF1C56F9D8008D8109 /* AFNetworkReachabilityManager.m */,
+				7368E0F01C56F9D8008D8109 /* AFSecurityPolicy.h */,
+				7368E0F11C56F9D8008D8109 /* AFSecurityPolicy.m */,
+				7368E0F21C56F9D8008D8109 /* AFURLRequestSerialization.h */,
+				7368E0F31C56F9D8008D8109 /* AFURLRequestSerialization.m */,
+				7368E0F41C56F9D8008D8109 /* AFURLResponseSerialization.h */,
+				7368E0F51C56F9D8008D8109 /* AFURLResponseSerialization.m */,
+				7368E0F61C56F9D8008D8109 /* AFURLSessionManager.h */,
+				7368E0F71C56F9D8008D8109 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		7368E10F1C56F9D8008D8109 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0BC1C56F9B2008D8109 /* ViewController.h */,
+				7368E0BD1C56F9B2008D8109 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7368E1101C56F9D8008D8109 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0C21C56F9B2008D8109 /* Assets.xcassets */,
+				7368E0C41C56F9B2008D8109 /* LaunchScreen.storyboard */,
+				7368E0C71C56F9B2008D8109 /* Info.plist */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		7368E1111C56F9D8008D8109 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7368E1121C56F9D8008D8109 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0E91C56F9D8008D8109 /* AFNetworking */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7368E1131C56F9D8008D8109 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7368E0B91C56F9B2008D8109 /* AppDelegate.h */,
+				7368E0BA1C56F9B2008D8109 /* AppDelegate.m */,
+				7368E0BF1C56F9B2008D8109 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7368E0B21C56F9B2008D8109 /* cookery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368E0E01C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookery" */;
+			buildPhases = (
+				7368E0AF1C56F9B2008D8109 /* Sources */,
+				7368E0B01C56F9B2008D8109 /* Frameworks */,
+				7368E0B11C56F9B2008D8109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cookery;
+			productName = cookery;
+			productReference = 7368E0B31C56F9B2008D8109 /* cookery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7368E0CB1C56F9B2008D8109 /* cookeryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368E0E31C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookeryTests" */;
+			buildPhases = (
+				7368E0C81C56F9B2008D8109 /* Sources */,
+				7368E0C91C56F9B2008D8109 /* Frameworks */,
+				7368E0CA1C56F9B2008D8109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7368E0CE1C56F9B2008D8109 /* PBXTargetDependency */,
+			);
+			name = cookeryTests;
+			productName = cookeryTests;
+			productReference = 7368E0CC1C56F9B2008D8109 /* cookeryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7368E0D61C56F9B2008D8109 /* cookeryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7368E0E61C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookeryUITests" */;
+			buildPhases = (
+				7368E0D31C56F9B2008D8109 /* Sources */,
+				7368E0D41C56F9B2008D8109 /* Frameworks */,
+				7368E0D51C56F9B2008D8109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7368E0D91C56F9B2008D8109 /* PBXTargetDependency */,
+			);
+			name = cookeryUITests;
+			productName = cookeryUITests;
+			productReference = 7368E0D71C56F9B2008D8109 /* cookeryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7368E0AB1C56F9B2008D8109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kaifeng;
+				TargetAttributes = {
+					7368E0B21C56F9B2008D8109 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KTXQ3SG23;
+					};
+					7368E0CB1C56F9B2008D8109 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KTXQ3SG23;
+						TestTargetID = 7368E0B21C56F9B2008D8109;
+					};
+					7368E0D61C56F9B2008D8109 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KTXQ3SG23;
+						TestTargetID = 7368E0B21C56F9B2008D8109;
+					};
+				};
+			};
+			buildConfigurationList = 7368E0AE1C56F9B2008D8109 /* Build configuration list for PBXProject "cookery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7368E0AA1C56F9B2008D8109;
+			productRefGroup = 7368E0B41C56F9B2008D8109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7368E0B21C56F9B2008D8109 /* cookery */,
+				7368E0CB1C56F9B2008D8109 /* cookeryTests */,
+				7368E0D61C56F9B2008D8109 /* cookeryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7368E0B11C56F9B2008D8109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368E0C61C56F9B2008D8109 /* LaunchScreen.storyboard in Resources */,
+				7368E0C31C56F9B2008D8109 /* Assets.xcassets in Resources */,
+				7368E0C11C56F9B2008D8109 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0CA1C56F9B2008D8109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0D51C56F9B2008D8109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7368E0AF1C56F9B2008D8109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368E1191C56F9D8008D8109 /* AFURLSessionManager.m in Sources */,
+				7368E0BE1C56F9B2008D8109 /* ViewController.m in Sources */,
+				7368E0BB1C56F9B2008D8109 /* AppDelegate.m in Sources */,
+				7368E1151C56F9D8008D8109 /* AFNetworkReachabilityManager.m in Sources */,
+				7368E0B81C56F9B2008D8109 /* main.m in Sources */,
+				7368E1161C56F9D8008D8109 /* AFSecurityPolicy.m in Sources */,
+				7368E1171C56F9D8008D8109 /* AFURLRequestSerialization.m in Sources */,
+				7368E1181C56F9D8008D8109 /* AFURLResponseSerialization.m in Sources */,
+				7368E1141C56F9D8008D8109 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0C81C56F9B2008D8109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368E0D11C56F9B2008D8109 /* cookeryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7368E0D31C56F9B2008D8109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7368E0DC1C56F9B2008D8109 /* cookeryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7368E0CE1C56F9B2008D8109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7368E0B21C56F9B2008D8109 /* cookery */;
+			targetProxy = 7368E0CD1C56F9B2008D8109 /* PBXContainerItemProxy */;
+		};
+		7368E0D91C56F9B2008D8109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7368E0B21C56F9B2008D8109 /* cookery */;
+			targetProxy = 7368E0D81C56F9B2008D8109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7368E0BF1C56F9B2008D8109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7368E0C01C56F9B2008D8109 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7368E0C41C56F9B2008D8109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7368E0C51C56F9B2008D8109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7368E0DE1C56F9B2008D8109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7368E0DF1C56F9B2008D8109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7368E0E11C56F9B2008D8109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cookery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7368E0E21C56F9B2008D8109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cookery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7368E0E41C56F9B2008D8109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cookeryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookeryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookery.app/cookery";
+			};
+			name = Debug;
+		};
+		7368E0E51C56F9B2008D8109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cookeryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookeryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookery.app/cookery";
+			};
+			name = Release;
+		};
+		7368E0E71C56F9B2008D8109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cookeryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookeryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cookery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7368E0E81C56F9B2008D8109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cookeryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.cookeryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cookery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7368E0AE1C56F9B2008D8109 /* Build configuration list for PBXProject "cookery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368E0DE1C56F9B2008D8109 /* Debug */,
+				7368E0DF1C56F9B2008D8109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7368E0E01C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368E0E11C56F9B2008D8109 /* Debug */,
+				7368E0E21C56F9B2008D8109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7368E0E31C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookeryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368E0E41C56F9B2008D8109 /* Debug */,
+				7368E0E51C56F9B2008D8109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7368E0E61C56F9B2008D8109 /* Build configuration list for PBXNativeTarget "cookeryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7368E0E71C56F9B2008D8109 /* Debug */,
+				7368E0E81C56F9B2008D8109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7368E0AB1C56F9B2008D8109 /* Project object */;
+}
